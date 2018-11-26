@@ -1,5 +1,5 @@
-import User from "./User";
-import Product from "./Product";
+import User from "./user";
+import Product from "./product";
 export const modules = {
     User: User,
     Product: Product
