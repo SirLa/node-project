@@ -9,7 +9,7 @@ export const modules = {
 // proposal-export-default-from plugin find here 
 // export-default-from in https://babeljs.io/docs/en/plugins
 
-// using this plugin you cane 
+// using this plugin you can
 
 // export { default as User } from "./user";
 // export { default as Product } from "./product";
