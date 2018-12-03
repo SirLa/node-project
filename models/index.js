@@ -1,6 +1,2 @@
-import User from "./user";
-import Product from "./product";
-export const modules = {
-    User: User,
-    Product: Product
-};
+export { default as User } from "./user";
+export { default as Product } from "./product";
