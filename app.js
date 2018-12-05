@@ -1,6 +1,6 @@
 import config from "./config/config.json";
-import {modules} from "./models/index";
+import { User, Product } from "./models/index";
 
-new modules.User();
-new modules.Product();
+new User();
+new Product();
 console.log(config.name);
