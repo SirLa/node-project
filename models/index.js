@@ -1,2 +1,4 @@
-export { default as User } from "./user";
-export { default as Product } from "./product";
+export { User } from "./user";
+export { Product } from "./product";
+export { DirWatcher } from "./dirwatcher";
+export { Importer } from "./importer";
