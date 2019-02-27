@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Product1",
+    "reviews": ["lala"]
+  },
+  {
+    "id": 2,
+    "name": "Product2",
+    "reviews": ["daaadaam"]
+  },
+  {
+    "id": 3,
+    "name": "Product3",
+    "reviews": ["nyamnyam"]
+  },
+  {
+    "id": 4,
+    "name": "Product4",
+    "reviews": ["hafhaf"]
+  },
+  {
+    "id": 5,
+    "name": "Product5",
+    "reviews": ["lala"]
+  },
+  {
+    "id": 6,
+    "name": "Product6",
+    "reviews": ["myauuu"]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "user1",
+    "coutry": "Armenia",
+    "city": "Yerevan",
+    "phone_number": "+37496325252"
+  },
+  {
+    "id": 2,
+    "name": "user2",
+    "coutry": "Armenia",
+    "city": "Yerevan",
+    "phone_number": "+37496325252"
+  },
+  {
+    "id": 3,
+    "name": "user3",
+    "coutry": "Armenia",
+    "city": "Yerevan",
+    "phone_number": "+37496325252"
+  },
+  {
+    "id": 4,
+    "name": "user4",
+    "coutry": "Armenia",
+    "city": "Yerevan",
+    "phone_number": "+37496325252"
+  },
+  {
+    "id": 5,
+    "name": "user5",
+    "coutry": "Armenia",
+    "city": "Yerevan",
+    "phone_number": "+37496325252"
+  }
+]

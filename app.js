@@ -1,11 +1,13 @@
-import config from "./config/config.json";
-import { User, Product, DirWatcher, Importer } from "./models/index";
-import path from "path";
+import express from "express";
+import * as routes from './routes';
+import bodyParser from "body-parser";
+import parsedCookies from './middlewares/parsedCookies';
 
-new User();
-new Product();
-console.log(config.name);
-const dirWatcher = new DirWatcher();
-const importer = new Importer();
-const dir = path.join(__dirname, "data");
-dirWatcher.watch(dir, 3000);
+const app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(parsedCookies);
+app.use('/api/products', routes.product);
+app.use('/api/users', routes.user);
+
+export default app;

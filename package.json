@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node ./app",
+    "start": "nodemon --exec babel-node ./utils/app",
     "build": "babel ./src --out-dir dist --copy-files",
-    "serve": "nodemon ./dist/app",
+    "serve": "nodemon --exec babel-node ./index",
     "clean": "rm -rf ./dist"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
-    "convert-csv-to-json": "0.0.13"
+    "convert-csv-to-json": "0.0.13",
+    "express": "^4.16.4"
   }
 }
