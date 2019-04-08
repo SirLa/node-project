@@ -1,4 +1,4 @@
-import config from "../config/config.json";
+import config from "../config/configPr.json";
 import { User, Product, DirWatcher, Importer } from "../models/index";
 import path from "path";
 
